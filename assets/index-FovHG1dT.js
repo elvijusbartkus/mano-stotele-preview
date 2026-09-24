@@ -19,9 +19,9 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/maplibre-gl-B8-
               <button type="button" id="locate" class="primary">${Ce}<span>${a(`useLocation`)}</span></button>
               <p class="hint">${a(`orTapMap`)}</p>
             </div>
-            <p class="privacy">${a(`privacy`)}</p>
           </div>
         </form>
+        <p class="privacy">${a(`privacy`)}</p>
         <p id="status" role="status" aria-live="polite"></p>
       </section>
 
