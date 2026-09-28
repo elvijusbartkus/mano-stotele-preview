@@ -34,7 +34,7 @@ a{color:var(--link)}code{font:14px "JetBrains Mono LT",monospace}
 <h2>Duomenų šaltiniai</h2>
 <ul>
 <li><strong>Tvarkaraštis:</strong> SĮ „Susisiekimo paslaugos“, stops.lt GTFS (<a href="https://www.stops.lt/vilnius/vilnius/gtfs.zip">stops.lt/vilnius/vilnius/gtfs.zip</a>). Failo data 2026-09-22, atsisiųsta 2026-09-23. Darbo dienų pavyzdys – pirmadienis, 2026-09-28 (pirmadienio–ketvirtadienio tvarkaraštis vienodas).</li>
-<li><strong>Gyventojai:</strong> Eurostat, 2021 m. surašymo gyventojų tinklelis (1 km langeliai, V3) (<a href="https://ec.europa.eu/eurostat/web/gisco/geodata/population-distribution/population-grids">ec.europa.eu/eurostat</a>). Kiekvieno langelio gyventojai paskirstyti 100 m langeliais pagal gyvenamųjų pastatų plotą iš OpenStreetMap. Iš viso 552 998 gyventojai.</li>
+<li><strong>Gyventojai:</strong> Eurostat, 2021 m. surašymo gyventojų tinklelis (1 km langeliai, V3) (<a href="https://ec.europa.eu/eurostat/web/gisco/geodata/population-distribution/population-grids">ec.europa.eu/eurostat</a>). Kiekvieno langelio gyventojai paskirstyti 100 m langeliais pagal gyvenamųjų pastatų plotą iš OpenStreetMap. Iš viso 567 323 gyventojai.</li>
 <li><strong>Seniūnijų ribos ir pastatai:</strong> © OpenStreetMap bendruomenė (ODbL), duomenys 2026-09-26.</li>
 </ul>
 <h2>Apibrėžimai</h2>
@@ -46,8 +46,8 @@ a{color:var(--link)}code{font:14px "JetBrains Mono LT",monospace}
 <li><strong>Darbo dienos vakaras:</strong> pirmadienis–ketvirtadienis.</li>
 </ul>
 <h2>Kaip apskaičiuoti pagrindiniai skaičiai</h2>
-<p class="n">1. <strong>56 079 vilniečiai (10,1 %) neturi nė vienos stotelės per 600 m pėsčiomis.</strong> Suskaičiuoti gyventojai 100 m langeliuose, nuo kurių centro iki artimiausios stotelės daugiau nei 600 m (tiesia linija × 1,3).</p>
-<p class="n">2. <strong>14 iš 21 seniūnijos pusė gyventojų paskutinį tiesioginį autobusą namo iš centro turi dar iki vidurnakčio</strong> (medianos nuo 22:35 iki 23:58, pirmadieniais–ketvirtadieniais). Kiekvienai seniūnijai – gyventojų skaičiumi pasverta mediana. Antakalnio, Grigiškių ir Panerių seniūnijose daugiau nei pusė gyventojų tiesioginio autobuso namo neturi visai. Viso miesto mediana – 23:30.</p>
+<p class="n">1. <strong>38 234 vilniečiai (6,7 %) neturi nė vienos stotelės per 600 m pėsčiomis.</strong> Suskaičiuoti gyventojai 100 m langeliuose, nuo kurių centro iki artimiausios stotelės daugiau nei 600 m (tiesia linija × 1,3).</p>
+<p class="n">2. <strong>15 iš 21 seniūnijos pusė gyventojų paskutinį tiesioginį autobusą namo iš centro turi dar iki vidurnakčio</strong> (medianos nuo 22:46 iki 23:58, pirmadieniais–ketvirtadieniais). Kiekvienai seniūnijai – gyventojų skaičiumi pasverta mediana. Grigiškių ir Panerių seniūnijose daugiau nei pusė gyventojų tiesioginio autobuso namo neturi visai (Grigiškėse jo neturi niekas). Viso miesto mediana – 23:34.</p>
 <h2>Ribotumai</h2>
 <ul>
 <li>Tvarkaraštis, ne realus laikas: vėlavimai ir atšaukti reisai neįskaičiuoti; vėlesni tvarkaraščio pakeitimai – taip pat.</li>
@@ -55,7 +55,7 @@ a{color:var(--link)}code{font:14px "JetBrains Mono LT",monospace}
 <li>Ėjimas įvertintas apytiksliai, ne gatvių tinklu.</li>
 <li>Gyventojų skaičius 100 m langelyje – modelio įvertis; seniūnijų ir miesto sumos daug patikimesnės nei atskiros gatvės.</li>
 <li>Skaičiuojami tik gyventojai 21 seniūnijos ribose.</li>
-<li>Kitas centro stotelių sąrašas duotų kitus skaičius, ypač Antakaliui ir Senamiesčiui.</li>
+<li>Centro ribos – sutartinės. Patikrinta: pridėjus stoteles per 800 m nuo Katedros aikštės (Kalnų parkas, Užupio g., Vilnios g., Žvejų g.), seniūnijų medianos pasikeitė ne daugiau kaip 1 min.</li>
 </ul>
 <p>Skaičiavimą galima pakartoti: <code>analysis/headline_stats.py</code>.</p>
 <h2>Kontaktai</h2>
