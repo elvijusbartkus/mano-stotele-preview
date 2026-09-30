@@ -49,11 +49,12 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/maplibre-gl-B8-
         <div class="win-panel">
           <button type="button" class="secondary" id="map-open" aria-expanded="false" aria-controls="map-body">${o(`mapOpen`)}</button>
           <div id="map-body" hidden>
-          <div class="textswitch" role="group" aria-label="${o(`mapModeGroup`)}">
-            <span class="textswitch-label">${o(`mapModeGroup`)}:</span>
-            <button type="button" data-mode="last" aria-pressed="true">${o(`modeLast`)}</button>
-            <button type="button" data-mode="freq" aria-pressed="false">${o(`modeFreq`)}</button>
-            <span id="map-tip">${q(`mapIntro`)}</span>
+          <p class="caption map-mode-caption"><span aria-hidden="true">${o(`mapModeGroup`)}</span> <span id="map-tip">${q(`mapIntro`)}</span></p>
+          <div class="map-mode-row">
+            <div class="pills dirs map-modes" role="group" aria-label="${o(`mapModeGroup`)}">
+              <button type="button" class="pill" data-mode="last" aria-pressed="true">${o(`modeLast`)}</button>
+              <button type="button" class="pill" data-mode="freq" aria-pressed="false">${o(`modeFreq`)}</button>
+            </div>
             <button type="button" class="icon-btn map-share" data-share="map" aria-label="${o(`share`)}">${I}</button>
           </div>
           <div class="hour" id="hour-row" hidden>
